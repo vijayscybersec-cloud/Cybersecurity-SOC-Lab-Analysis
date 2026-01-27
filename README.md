@@ -1,4 +1,5 @@
 # SOC Analyst Lab: Network Traffic & DNS Analysis
+👉 [View my Botium Toys Internal Audit Report](./Botium-Toys-Audit.md)
 
 > **Executive Summary:** This lab demonstrates technical proficiency in network traffic analysis using Wireshark. By isolating and inspecting DNS protocols, I validated system communication integrity—a core competency for SOC Analyst roles.
 
