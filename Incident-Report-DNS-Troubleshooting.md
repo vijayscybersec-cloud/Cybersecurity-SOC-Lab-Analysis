@@ -23,6 +23,8 @@ The browser attempted to resolve the domain name via a DNS A-record request. How
 
 ---
 
+**Source:** This incident scenario and log data are provided by the **Google Cybersecurity Professional Certificate** curriculum on Coursera.
+
 ## ✅ Resolution & Recommendations
 1. **Immediate Action:** Escalated the issue to security engineers to restart the DNS service on the target server.
 2. **Root Cause Analysis:** Investigating whether a recent firewall update blocked UDP Port 53.
