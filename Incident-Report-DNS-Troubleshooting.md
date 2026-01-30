@@ -1,7 +1,7 @@
 # 🛠️ Incident Report: Network Connectivity Troubleshooting
 
 ## 📝 Incident Summary
-On January 30, 2026, at 13:24 PM, users reported an inability to access the website `www.yummyrecipesforme.com`. I performed a network analysis using `tcpdump` to identify the root cause of the service interruption.
+As part of a technical lab in the Google Cybersecurity Certificate program, I analyzed a simulated network outage for the website www.yummyrecipesforme.com. Using tcpdump logs, I investigated the root cause of a service interruption affecting external users.
 
 ---
 
