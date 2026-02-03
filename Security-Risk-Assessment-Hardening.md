@@ -8,44 +8,45 @@ Following a major data breach at a social media organization that compromised cu
 ## 🔍 Vulnerability Assessment
 During the network inspection, four high-risk vulnerabilities were identified that directly contribute to the organization's insecure security posture:
 
-1. **Password Hygiene:** Employees are currently sharing passwords, which eliminates individual accountability.
+1. **Password Hygiene:** Employees are currently sharing passwords, eliminating individual accountability.
 2. **Default Credentials:** The administrative password for the database remains set to the factory default.
 3. **Weak Perimeter Security:** Firewalls lack defined rules to filter inbound and outbound traffic.
-4. **Lack of MFA:** Multi-factor authentication is not implemented, making credential theft easy to exploit.
+4. **Lack of MFA:** Multi-factor authentication is not implemented, making credentials easy to exploit.
 
 ---
 
-## 🛠️ Proposed Network Hardening Tools
-To address these gaps, I recommend implementing the following industry-standard tools and practices:
+## 🛠️ Recommended Hardening Tools & Strategies
+Based on the organization's needs, I have selected the following hardening tasks from the internal security toolkit:
 
-* **Firewalls:** To monitor and filter network traffic based on configured security rules.
-* **Intrusion Detection Systems (IDS):** To identify and alert on suspicious activity or known attack patterns.
-* **Encryption:** To protect data in transit and at rest, ensuring that even if data is intercepted, it remains unreadable.
-* **Network Access Concept (Least Privilege):** Implementing strict permissions so users only access what is necessary for their role.
+| Hardening Task | Description | Core Benefit |
+| :--- | :--- | :--- |
+| **Multifactor Authentication (MFA)** | Requires a user to verify identity in two or more ways (password, OTP, badge, etc.) | Protects against brute force attacks and credential theft. |
+| **Port Filtering** | A firewall function that blocks or allows certain port numbers | Limits unwanted communication and prevents attackers from entering the private network. |
+| **Network Access Privileges** | Permitting or blocking access to assets for specific roles, groups, or IP addresses | Reduces the risk of unauthorized users accessing the internal network. |
+| **Password Policies** | Implementing NIST recommendations such as salting and hashing passwords | Prevents attackers from easily guessing passwords via scripts or brute force. |
+
+---
 
 ## 📈 Hardening Recommendations & Effectiveness
 
-### 1. Firewall Rule Configuration (Port Filtering)
-* **Action:** Configure firewall rules to block all non-essential ports and filter traffic coming in and out of the network.
-* **Effectiveness:** This prevents unauthorized access to sensitive internal services and stops malware from "calling home" to an attacker's server. 
-* **Frequency:** Firewall logs should be reviewed daily, and rule sets should be audited monthly to remove outdated permissions.
+### 1. Identity & Access Management (MFA & Password Policy)
+* **Strategy:** Mandate **Multifactor Authentication (MFA)** and update **Password Policies** to align with NIST standards.
+* **Effectiveness:** These measures protect against brute force attacks where attackers attempt to guess passwords manually or with scripts.
+* **Implementation:** This is a "set up once and maintain" technique that provides 24/7 protection for all administrative and employee accounts.
 
+### 2. Network Infrastructure (Firewall Maintenance & Port Filtering)
+* **Strategy:** Execute **Firewall Maintenance** to check and update security configurations regularly and implement **Port Filtering**.
+* **Effectiveness:** Port filtering controls network traffic and prevents potential attackers from entering a private network by blocking dangerous traffic before it passes through.
+* **Implementation:** These rules should be updated in response to any events that allow abnormal traffic into the network to stay ahead of potential threats.
 
-
-### 2. Identity and Access Management (MFA & Password Policy)
-* **Action:** Force a global password reset, prohibit password sharing, and mandate Multi-Factor Authentication (MFA) for all accounts.
-* **Effectiveness:** MFA provides a critical second layer of defense. Even if an attacker steals a password, they cannot gain access without the second factor (e.g., an authenticator app code).
-* **Frequency:** Password complexity requirements are enforced 24/7; MFA is required at every login attempt.
-
-
-
-[Image of multi-factor authentication process]
-
+### 3. Monitoring (Network Log Analysis)
+* **Strategy:** Configure **Network Log Analysis** using a SIEM tool to identify events of interest.
+* **Effectiveness:** This alerts the security team to abnormal traffic patterns during or after a potential attack, allowing for faster response times.
 
 ---
 
 ## ✅ Conclusion
-By addressing these four core vulnerabilities through a combination of technical controls (Firewalls/IDS) and administrative policies (MFA/Password Hygiene), the organization can significantly reduce its attack surface and protect customer data from future breaches.
+By addressing the identified vulnerabilities with these specific hardening tasks—MFA, Port Filtering, and NIST-aligned Password Policies—the organization will move from a reactive security posture to a proactive one. These tools ensure that even if one layer of defense is bypassed, multiple others remain to protect customer data.
 
 ---
-**Source:** This risk assessment scenario and hardening tool list are provided by the **Google Cybersecurity Professional Certificate** curriculum on Coursera.
+**Source:** This risk assessment scenario and the list of network hardening tools were provided by the **Google Cybersecurity Professional Certificate** curriculum on Coursera.
