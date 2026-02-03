@@ -8,45 +8,52 @@ Following a major data breach at a social media organization that compromised cu
 ## 🔍 Vulnerability Assessment
 During the network inspection, four high-risk vulnerabilities were identified that directly contribute to the organization's insecure security posture:
 
-1. **Password Hygiene:** Employees are currently sharing passwords, eliminating individual accountability.
+1. **Password Hygiene:** Employees are currently sharing passwords, which eliminates individual accountability.
 2. **Default Credentials:** The administrative password for the database remains set to the factory default.
 3. **Weak Perimeter Security:** Firewalls lack defined rules to filter inbound and outbound traffic.
-4. **Lack of MFA:** Multi-factor authentication is not implemented, making credentials easy to exploit.
+4. **Lack of MFA:** Multi-factor authentication is not implemented, making credential theft easy to exploit.
 
 ---
 
-## 🛠️ Recommended Hardening Tools & Strategies
-Based on the organization's needs, I have selected the following hardening tasks from the internal security toolkit:
+## 🛠️ Proposed Hardening Roadmap
+Based on the "Network Hardening Tools" catalog, the following tasks have been prioritized for implementation:
 
-| Hardening Task | Description | Core Benefit |
+| Hardening Task | Technical Description | Implementation Frequency |
 | :--- | :--- | :--- |
-| **Multifactor Authentication (MFA)** | Requires a user to verify identity in two or more ways (password, OTP, badge, etc.) | Protects against brute force attacks and credential theft. |
-| **Port Filtering** | A firewall function that blocks or allows certain port numbers | Limits unwanted communication and prevents attackers from entering the private network. |
-| **Network Access Privileges** | Permitting or blocking access to assets for specific roles, groups, or IP addresses | Reduces the risk of unauthorized users accessing the internal network. |
-| **Password Policies** | Implementing NIST recommendations such as salting and hashing passwords | Prevents attackers from easily guessing passwords via scripts or brute force. |
+| **Multifactor Authentication (MFA)** | Verifying identity in two or more ways (password, OTP, badge, etc.) | Mostly set up once, then maintained. |
+| **Port Filtering** | Firewall function that blocks or allows certain port numbers to limit unwanted communication | Executed as needed to control network traffic. |
+| **Password Policies** | Focused on salting and hashing passwords (NIST recommendations) | Applied 24/7 to prevent brute force attacks. |
+| **Firewall Maintenance** | Checking and updating security configurations regularly | Performed regularly or in response to abnormal traffic. |
 
 ---
 
-## 📈 Hardening Recommendations & Effectiveness
+## 📈 Strategic Hardening Methods
 
-### 1. Identity & Access Management (MFA & Password Policy)
-* **Strategy:** Mandate **Multifactor Authentication (MFA)** and update **Password Policies** to align with NIST standards.
-* **Effectiveness:** These measures protect against brute force attacks where attackers attempt to guess passwords manually or with scripts.
-* **Implementation:** This is a "set up once and maintain" technique that provides 24/7 protection for all administrative and employee accounts.
+### 1. Strengthening Identity (MFA & Password Policies)
+* **Goal:** To prevent attackers from easily guessing user passwords manually or via brute force scripts.
+* **Method:** Implement **Multifactor Authentication (MFA)** and **Password Policies** that focus on securing the storage of passwords (salting/hashing) rather than just complexity.
+* **Effectiveness:** MFA protects against credential theft by requiring a second factor like a one-time password (OTP) or fingerprint.
 
-### 2. Network Infrastructure (Firewall Maintenance & Port Filtering)
-* **Strategy:** Execute **Firewall Maintenance** to check and update security configurations regularly and implement **Port Filtering**.
-* **Effectiveness:** Port filtering controls network traffic and prevents potential attackers from entering a private network by blocking dangerous traffic before it passes through.
-* **Implementation:** These rules should be updated in response to any events that allow abnormal traffic into the network to stay ahead of potential threats.
 
-### 3. Monitoring (Network Log Analysis)
-* **Strategy:** Configure **Network Log Analysis** using a SIEM tool to identify events of interest.
-* **Effectiveness:** This alerts the security team to abnormal traffic patterns during or after a potential attack, allowing for faster response times.
+
+[Image of multi-factor authentication process]
+
+
+### 2. Network Perimeter Defense (Port Filtering & Firewall Maintenance)
+* **Goal:** To control network traffic and prevent potential attackers from entering a private network.
+* **Method:** Apply **Port Filtering** to block dangerous traffic and perform regular **Firewall Maintenance** to stay ahead of potential threats.
+* **Effectiveness:** Disabling unused ports prevents malicious actors from entering the network through open vulnerabilities before an incident occurs.
+
+
+
+### 3. Monitoring & Access Control
+* **Strategy:** Use **Network Log Analysis** (often via a SIEM) to examine logs and identify events of interest.
+* **Strategy:** Define **Network Access Privileges** to limit access to network assets for specific roles or IP addresses, reducing the risk of unauthorized lateral movement.
 
 ---
 
-## ✅ Conclusion
-By addressing the identified vulnerabilities with these specific hardening tasks—MFA, Port Filtering, and NIST-aligned Password Policies—the organization will move from a reactive security posture to a proactive one. These tools ensure that even if one layer of defense is bypassed, multiple others remain to protect customer data.
+## ✅ Final Conclusion
+By implementing these specific hardening tasks—ranging from technical configurations (Port Filtering) to administrative protocols (MFA)—the organization significantly reduces its risk of a secondary data breach. This "Defense in Depth" approach ensures that if one security layer fails, others remain to protect the customer's personal information.
 
 ---
-**Source:** This risk assessment scenario and the list of network hardening tools were provided by the **Google Cybersecurity Professional Certificate** curriculum on Coursera.
+**Source:** This risk assessment scenario and the "Network Hardening Tools" reference data are provided by the **Google Cybersecurity Professional Certificate** curriculum on Coursera.
