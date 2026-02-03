@@ -36,9 +36,6 @@ Based on the "Network Hardening Tools" catalog, the following tasks have been pr
 
 
 
-[Image of multi-factor authentication process]
-
-
 ### 2. Network Perimeter Defense (Port Filtering & Firewall Maintenance)
 * **Goal:** To control network traffic and prevent potential attackers from entering a private network.
 * **Method:** Apply **Port Filtering** to block dangerous traffic and perform regular **Firewall Maintenance** to stay ahead of potential threats.
