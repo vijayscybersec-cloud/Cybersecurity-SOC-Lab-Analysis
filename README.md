@@ -1,57 +1,57 @@
-# SOC Analyst Lab: Network Traffic & DNS Analysis
-👉 [View my Botium Toys Internal Audit Report](./Botium-Toys-Audit.md)
-
-👉 [View my Incident Report: DNS Troubleshooting](./Incident-Report-DNS-Troubleshooting.md)
-
-👉 [View my Incident Report: SYN Flood Analysis](./Incident-Report-SYN-Flood-Analysis.md)
-
-👉 [View my Incident Report: Brute Force & Malware Redirection](./Incident-Report-Brute-Force-Malware.md)
-
-👉 [View my Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)
-
-> **Executive Summary:** This lab demonstrates technical proficiency in network traffic analysis using Wireshark. By isolating and inspecting DNS protocols, I validated system communication integrity—a core competency for SOC Analyst roles.
-
-## 📌 Project Overview
-The goal of this project was to establish a baseline for "normal" network traffic and identify how a workstation interacts with the Domain Name System (DNS). Understanding standard traffic is the first step in detecting anomalies like DNS Tunneling or Command & Control (C2) callbacks.
+# 🛡️ Cybersecurity & SOC Analyst Portfolio
+Welcome to my technical portfolio. This repository serves as a professional showcase of my transition from **US IT Recruitment** and a **BCA background** into **Security Operations**. Here, I demonstrate my proficiency in network traffic analysis, incident response, and proactive defense using the **NIST Cybersecurity Framework (CSF)**.
 
 ---
 
-## 🛠️ Tools & Environment
-* **Network Analyzer:** Wireshark
-* **Operating System:** Windows 10
-* **Protocols Studied:** DNS (UDP Port 53), UDP, IPv4
+## 🚀 Incident Reports & Security Audits
+Each project below represents a real-world scenario analyzed during my professional certification training.
+
+### 🏛️ Governance & Risk Management
+* **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**
+    * Performed a comprehensive security audit of a fictional toy company.
+    * Mapped assets and vulnerabilities to the **NIST CSF** to identify critical gaps in physical and digital security.
+
+### 🕵️ Network Traffic Analysis (Incident Response)
+* **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
+    * Investigated connectivity issues for `yummyrecipesforme.com` using `tcpdump`.
+    * Identified a service failure on **UDP Port 53** via ICMP error analysis.
+* **[DDoS Detection: TCP SYN Flood](./Incident-Report-SYN-Flood-Analysis.md)**
+    * Analyzed packet captures to identify an incomplete TCP three-way handshake pattern.
+    * Documented how "half-open" connections were used to exhaust server resources.
+
+
+
+* **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)**
+    * Analyzed a multi-stage attack involving a default password exploit and a malicious JavaScript redirect.
+    * Traced the browser redirection from a legitimate site to a malware-hosting domain in network logs.
+
+### 🛡️ Defensive Hardening & Strategy
+* **[Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)**
+    * Developed a proactive hardening roadmap for a social media organization.
+    * Proposed technical controls including **MFA**, **Port Filtering**, and **Firewall Maintenance** to protect customer PII.
+* **[NIST CSF Lifecycle Analysis: DoS Event](./NIST-CSF-Incident-Analysis.md)**
+    * Applied the "Identify, Protect, Detect, Respond, and Recover" lifecycle to a two-hour ICMP flood incident.
+    * Established long-term strategies for rate limiting and IDS/IPS integration.
 
 ---
 
-## 🚀 Lab Implementation Steps
-
-### Phase 1: Environment Configuration
-I configured Wireshark to capture traffic on the active network interface. To ensure a clean dataset for analysis, I flushed the local DNS cache and closed non-essential background applications.
-
-### Phase 2: Traffic Capture & Simulation
-I initiated a live packet capture while performing manual DNS lookups by navigating to various domains. This allowed me to capture the "Query" and "Response" cycle in real-time.
-
-### Phase 3: Detection & Analysis
-Using the display filter `dns`, I isolated the traffic to inspect individual packets. 
-- **Finding:** I successfully identified the recursive DNS lookup process. I verified that the destination IP addresses for the DNS queries matched authorized resolvers, ensuring no unauthorized redirection was occurring.
+## 🛠️ Technical Toolkit
+* **Analysis Tools:** Wireshark, `tcpdump`, Packet Inspection.
+* **Frameworks:** NIST Cybersecurity Framework (CSF), NIST SP 800-53.
+* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA), Port Filtering.
+* **Protocols:** TCP/IP, DNS (UDP 53), HTTP/HTTPS, ICMP.
 
 ---
 
-## 📈 Visual Documentation
-### DNS Traffic Analysis
-![Wireshark DNS Analysis](wireshark_dns_analysis.png)
-*Figure 1: Analysis of DNS Query/Response showing the resolution of hostnames to IP addresses.*
+## 🧠 Core Competencies
+1.  **Packet Inspection:** Ability to isolate "needles in a haystack" using display filters to detect anomalies like DNS Tunneling or C2 callbacks.
+2.  **Incident Documentation:** Proficient in writing clear, technical reports for stakeholders that bridge the gap between raw data and business impact.
+3.  **Proactive Defense:** Skilled at identifying vulnerabilities (like default credentials) and proposing standard hardening tasks to reduce the attack surface.
 
 ---
 
-## 🧠 Key Learning Outcomes
-1. **Network Fundamentals:** Deepened understanding of the UDP protocol and the DNS resolution process (OSI Layer 7).
-2. **Packet Inspection:** Gained hands-on experience using display filters to find "needles in a haystack" within large capture files.
-3. **Cybersecurity Mindset:** Learned to validate that network traffic matches expected patterns, a critical skill for identifying data exfiltration.
+## 🔗 Connect with Me
+I am currently seeking a **Junior SOC Analyst** or **Security Analyst** role where I can apply my analytical mindset and technical training to protect organizational assets.
 
----
-
-## 🔗 How to Replicate
-1. Install [Wireshark](https://www.wireshark.org/).
-2. Select your active network interface and begin a capture.
-3. Filter by `dns` to analyze your own workstation's communication.
+* **Background:** BCA Graduate (Bangalore) | Former US IT Recruiter (2.5 Years)
+* **Current Focus:** CompTIA Security+ Preparation
