@@ -35,6 +35,11 @@ Each project below represents a real-world scenario analyzed during my professio
     * Applied the "Identify, Protect, Detect, Respond, and Recover" lifecycle to a two-hour ICMP flood incident.
     * Established long-term strategies for rate limiting and IDS/IPS integration.
 
+  
+### 📊 Database Security & Logging
+* **[SQL Security Filters & Querying](./SQL-Security-Filters-Lab.md)**
+    * Used SQL to investigate after-hours failed login attempts and suspicious activity.
+    * Applied logical operators (`AND`, `OR`, `NOT`) and pattern matching (`LIKE`) to filter employee and log data.
 ---
 
 ## 🛠️ Technical Toolkit
