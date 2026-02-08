@@ -10,6 +10,10 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**
     * Performed a comprehensive security audit of a fictional toy company.
     * Mapped assets and vulnerabilities to the **NIST CSF** to identify critical gaps in physical and digital security.
+ ### 🐧 System Administration & IAM
+* **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)**
+    * Managed user and group access levels for sensitive directories using `chmod` and `chown`.
+    * Applied the Principle of Least Privilege to secure internal project files and directories.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
@@ -18,8 +22,6 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[DDoS Detection: TCP SYN Flood](./Incident-Report-SYN-Flood-Analysis.md)**
     * Analyzed packet captures to identify an incomplete TCP three-way handshake pattern.
     * Documented how "half-open" connections were used to exhaust server resources.
-
-
 
 * **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)**
     * Analyzed a multi-stage attack involving a default password exploit and a malicious JavaScript redirect.
@@ -36,10 +38,11 @@ Each project below represents a real-world scenario analyzed during my professio
 ---
 
 ## 🛠️ Technical Toolkit
+* **Operating Systems:** Linux (Ubuntu/Debian), Windows.
 * **Analysis Tools:** Wireshark, `tcpdump`, Packet Inspection.
 * **Frameworks:** NIST Cybersecurity Framework (CSF), NIST SP 800-53.
-* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA), Port Filtering.
-* **Protocols:** TCP/IP, DNS (UDP 53), HTTP/HTTPS, ICMP.
+* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA).
+* **Protocols:** TCP/IP, DNS, HTTP/HTTPS, ICMP.
 
 ---
 
