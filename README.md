@@ -1,5 +1,5 @@
 # 🛡️ Cybersecurity & SOC Analyst Portfolio
-Welcome to my technical portfolio. This repository serves as a professional showcase of my transition from **US IT Recruitment** and a **BCA background** into **Security Operations**. Here, I demonstrate my proficiency in network traffic analysis, incident response, and proactive defense using the **NIST Cybersecurity Framework (CSF)**.
+Welcome to my technical portfolio. This repository serves as a professional showcase of my transition from **US IT Recruitment** and a **BCA background** into **Security Operations**. Here, I demonstrate my proficiency in network traffic analysis, incident response, system administration, and proactive defense using the **NIST Cybersecurity Framework (CSF)**.
 
 ---
 
@@ -10,10 +10,6 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**
     * Performed a comprehensive security audit of a fictional toy company.
     * Mapped assets and vulnerabilities to the **NIST CSF** to identify critical gaps in physical and digital security.
- ### 🐧 System Administration & IAM
-* **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)**
-    * Managed user and group access levels for sensitive directories using `chmod` and `chown`.
-    * Applied the Principle of Least Privilege to secure internal project files and directories.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
@@ -22,44 +18,50 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[DDoS Detection: TCP SYN Flood](./Incident-Report-SYN-Flood-Analysis.md)**
     * Analyzed packet captures to identify an incomplete TCP three-way handshake pattern.
     * Documented how "half-open" connections were used to exhaust server resources.
-
 * **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)**
     * Analyzed a multi-stage attack involving a default password exploit and a malicious JavaScript redirect.
-    * Traced the browser redirection from a legitimate site to a malware-hosting domain in network logs.
+    * Traced browser redirection from a legitimate site to a malware-hosting domain in network logs.
 
 ### 🛡️ Defensive Hardening & Strategy
 * **[Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)**
     * Developed a proactive hardening roadmap for a social media organization.
-    * Proposed technical controls including **MFA**, **Port Filtering**, and **Firewall Maintenance** to protect customer PII.
+    * Proposed technical controls including **MFA**, **Port Filtering**, and **Firewall Maintenance**.
 * **[NIST CSF Lifecycle Analysis: DoS Event](./NIST-CSF-Incident-Analysis.md)**
     * Applied the "Identify, Protect, Detect, Respond, and Recover" lifecycle to a two-hour ICMP flood incident.
     * Established long-term strategies for rate limiting and IDS/IPS integration.
 
-  
+### 🐧 System Administration & IAM
+* **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)**
+    * Managed user and group access levels for sensitive directories using `chmod` and `chown`.
+    * Applied the Principle of Least Privilege to secure internal project files and directories.
+
 ### 📊 Database Security & Logging
 * **[SQL Security Filters & Querying](./SQL-Security-Filters-Lab.md)**
     * Used SQL to investigate after-hours failed login attempts and suspicious activity.
-    * Applied logical operators (`AND`, `OR`, `NOT`) and pattern matching (`LIKE`) to filter employee and log data.
+    * Applied logical operators (`AND`, `OR`, `NOT`) and pattern matching (`LIKE`) to filter log data.
+
 ---
 
 ## 🛠️ Technical Toolkit
-* **Operating Systems:** Linux (Ubuntu/Debian), Windows.
 * **Analysis Tools:** Wireshark, `tcpdump`, Packet Inspection.
+* **Operating Systems:** Linux (Ubuntu/Debian), Windows.
+* **Databases:** SQL (PostgreSQL, BigQuery filters).
 * **Frameworks:** NIST Cybersecurity Framework (CSF), NIST SP 800-53.
-* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA).
-* **Protocols:** TCP/IP, DNS, HTTP/HTTPS, ICMP.
+* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA), Port Filtering.
+* **Protocols:** TCP/IP, DNS (UDP 53), HTTP/HTTPS, ICMP.
 
 ---
 
 ## 🧠 Core Competencies
-1.  **Packet Inspection:** Ability to isolate "needles in a haystack" using display filters to detect anomalies like DNS Tunneling or C2 callbacks.
-2.  **Incident Documentation:** Proficient in writing clear, technical reports for stakeholders that bridge the gap between raw data and business impact.
-3.  **Proactive Defense:** Skilled at identifying vulnerabilities (like default credentials) and proposing standard hardening tasks to reduce the attack surface.
+1.  **Forensic Investigation:** Skilled in using SQL to query database logs for suspicious login patterns and after-hours activity.
+2.  **Identity & Access Management (IAM):** Proficient in managing Linux permissions and implementing MFA to ensure only authorized users access sensitive data.
+3.  **Packet Inspection:** Ability to isolate "needles in a haystack" using display filters to detect anomalies like DNS Tunneling.
+4.  **Incident Documentation:** Proficient in writing technical reports that bridge the gap between raw data and business impact.
 
 ---
 
 ## 🔗 Connect with Me
-I am currently seeking a **Junior SOC Analyst** or **Security Analyst** role where I can apply my analytical mindset and technical training to protect organizational assets.
+I am seeking a **Junior SOC Analyst** or **Security Analyst** role where I can apply my analytical mindset and technical training to protect organizational assets.
 
 * **Background:** BCA Graduate (Bangalore) | Former US IT Recruiter (2.5 Years)
-* **Current Focus:** CompTIA Security+ Preparation
+* **Current Focus:** CompTIA Security+ & Google Cybersecurity Professional Certificate
