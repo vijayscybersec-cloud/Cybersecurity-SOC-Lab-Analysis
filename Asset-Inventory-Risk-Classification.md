@@ -14,10 +14,6 @@ I identified and cataloged devices connected to the network, evaluating their ow
 | **Desktop** | Occasional | Homeowner | On-premises | **Restricted** |
 | **Guest Smartphone** | Occasional | Friend | On/Off-premises | **Internal-only** |
 
-
-
-[Image of an IT asset management lifecycle diagram]
-
 ---
 
 ## 🛡️ Data Sensitivity Classification
