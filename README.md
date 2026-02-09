@@ -13,6 +13,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Home Office Asset Inventory & Classification](./Asset-Inventory-Risk-Classification.md)**
     * Created a detailed inventory of network assets and classified them by sensitivity (Restricted, Confidential, Internal).
     * Evaluated risk factors such as network access frequency and physical location to prioritize security controls.
+* **[Bank Risk Assessment & Register](./Risk-Assessment-Bank-Register.md)**
+    * Evaluated a commercial bank's operational environment to identify and score potential security risks.
+    * Calculated priority scores (Risk = Likelihood x Impact) to help stakeholders allocate resources to the most critical vulnerabilities.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
