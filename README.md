@@ -10,6 +10,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**
     * Performed a comprehensive security audit of a fictional toy company.
     * Mapped assets and vulnerabilities to the **NIST CSF** to identify critical gaps in physical and digital security.
+* **[Home Office Asset Inventory & Classification](./Asset-Inventory-Risk-Classification.md)**
+    * Created a detailed inventory of network assets and classified them by sensitivity (Restricted, Confidential, Internal).
+    * Evaluated risk factors such as network access frequency and physical location to prioritize security controls.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
