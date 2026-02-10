@@ -19,6 +19,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Data Leak Prevention: NIST AC-6 Analysis](./Data-Leak-Prevention-NIST-AC6.md)**
     * Analyzed a real-world data leak scenario involving unauthorized folder sharing and human error.
     * Applied **NIST SP 800-53: AC-6** controls to recommend Role-Based Access Control (RBAC) and automated access revocation.
+* **[Vulnerability Assessment: E-commerce Database](./Vulnerability-Assessment-E-commerce.md)**
+    * Conducted a qualitative risk assessment for a publicly exposed remote database server.
+    * Evaluated threat sources and events using **NIST SP 800-30 Rev. 1** and proposed a remediation strategy featuring VPN, MFA, and the AAA framework.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
