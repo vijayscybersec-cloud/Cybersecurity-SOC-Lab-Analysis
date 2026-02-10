@@ -16,6 +16,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Bank Risk Assessment & Register](./Risk-Assessment-Bank-Register.md)**
     * Evaluated a commercial bank's operational environment to identify and score potential security risks.
     * Calculated priority scores (Risk = Likelihood x Impact) to help stakeholders allocate resources to the most critical vulnerabilities.
+* **[Data Leak Prevention: NIST AC-6 Analysis](./Data-Leak-Prevention-NIST-AC6.md)**
+    * Analyzed a real-world data leak scenario involving unauthorized folder sharing and human error.
+    * Applied **NIST SP 800-53: AC-6** controls to recommend Role-Based Access Control (RBAC) and automated access revocation.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
