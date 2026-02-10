@@ -43,6 +43,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)**
     * Managed user and group access levels for sensitive directories using `chmod` and `chown`.
     * Applied the Principle of Least Privilege to secure internal project files and directories.
+* **[Access Control Audit: Insider Threat Investigation](./Access-Control-Audit-Lab.md)**
+    * Cross-referenced event logs with employee directories to identify a former contractor as a threat actor.
+    * Identified failures in the de-provisioning process and recommended the implementation of MFA and the Principle of Least Privilege.
 
 ### 📊 Database Security & Logging
 * **[SQL Security Filters & Querying](./SQL-Security-Filters-Lab.md)**
