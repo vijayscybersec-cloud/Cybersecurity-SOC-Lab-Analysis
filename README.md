@@ -22,6 +22,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Vulnerability Assessment: E-commerce Database](./Vulnerability-Assessment-E-commerce.md)**
     * Conducted a qualitative risk assessment for a publicly exposed remote database server.
     * Evaluated threat sources and events using **NIST SP 800-30 Rev. 1** and proposed a remediation strategy featuring VPN, MFA, and the AAA framework.
+* **[Social Engineering Analysis: USB Baiting](./USB-Baiting-Security-Analysis.md)**
+    * Analyzed a "found" USB drive using a virtualized sandbox environment to mitigate malware risks.
+    * Evaluated the threat of PII exposure and proposed technical and operational controls to prevent social engineering attacks.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
