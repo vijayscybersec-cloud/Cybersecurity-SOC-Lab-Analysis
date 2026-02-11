@@ -25,6 +25,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Social Engineering Analysis: USB Baiting](./USB-Baiting-Security-Analysis.md)**
     * Analyzed a "found" USB drive using a virtualized sandbox environment to mitigate malware risks.
     * Evaluated the threat of PII exposure and proposed technical and operational controls to prevent social engineering attacks.
+* **[Threat Model: PASTA Framework Analysis](./Threat-Model-PASTA-Shopping-App.md)**
+    * Conducted a 7-stage PASTA threat model for a mobile e-commerce application.
+    * Developed data flow diagrams and attack trees to identify vulnerabilities in SQL and API integrations, recommending defenses like input validation and encryption.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
