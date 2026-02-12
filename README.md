@@ -28,6 +28,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Threat Model: PASTA Framework Analysis](./Threat-Model-PASTA-Shopping-App.md)**
     * Conducted a 7-stage PASTA threat model for a mobile e-commerce application.
     * Developed data flow diagrams and attack trees to identify vulnerabilities in SQL and API integrations, recommending defenses like input validation and encryption.
+* **[Incident Handler's Journal: Healthcare Ransomware](./Incident-Handlers-Journal-Ransomware.md)**
+    * Documented a ransomware breach using the 5 W's framework to analyze a phishing-based attack on a healthcare provider.
+    * Outlined immediate response steps, including system isolation and backup verification to restore business continuity.
 
 ### 🕵️ Network Traffic Analysis (Incident Response)
 * **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
