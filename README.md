@@ -45,6 +45,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Tool Comparison: Wireshark vs. tcpdump](./Network-Analyzer-Comparison.md)**
     * Conducted a comparative analysis of GUI-based vs. CLI-based packet sniffers.
     * Identified strategic usage scenarios for remote server troubleshooting and deep-packet inspection.
+* **[Threat Intelligence: VirusTotal & Pyramid of Pain](./Threat-Intelligence-Pyramid-of-Pain.md)**
+    * Analyzed a malicious file hash using VirusTotal to identify Trojan-based behavioral patterns.
+    * Mapped Indicators of Compromise (IoCs) including MD5 hashes, C2 IP addresses, and MITRE ATT&CK TTPs to the Pyramid of Pain.
 
 ### 🛡️ Defensive Hardening & Strategy
 * **[Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)**
