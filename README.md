@@ -42,6 +42,9 @@ Each project below represents a real-world scenario analyzed during my professio
 * **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)**
     * Analyzed a multi-stage attack involving a default password exploit and a malicious JavaScript redirect.
     * Traced browser redirection from a legitimate site to a malware-hosting domain in network logs.
+* **[Tool Comparison: Wireshark vs. tcpdump](./Network-Analyzer-Comparison.md)**
+    * Conducted a comparative analysis of GUI-based vs. CLI-based packet sniffers.
+    * Identified strategic usage scenarios for remote server troubleshooting and deep-packet inspection.
 
 ### 🛡️ Defensive Hardening & Strategy
 * **[Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)**
