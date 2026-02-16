@@ -3,90 +3,58 @@ Welcome to my technical portfolio. This repository serves as a professional show
 
 ---
 
-## 🚀 Incident Reports & Security Audits
-Each project below represents a real-world scenario analyzed during my professional certification training.
+## ⭐ Featured Projects
+*These projects highlight my ability to bridge technical analysis with professional security frameworks.*
 
-### 🏛️ Governance & Risk Management
-* **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**
-    * Performed a comprehensive security audit of a fictional toy company.
-    * Mapped assets and vulnerabilities to the **NIST CSF** to identify critical gaps in physical and digital security.
-* **[Home Office Asset Inventory & Classification](./Asset-Inventory-Risk-Classification.md)**
-    * Created a detailed inventory of network assets and classified them by sensitivity (Restricted, Confidential, Internal).
-    * Evaluated risk factors such as network access frequency and physical location to prioritize security controls.
-* **[Bank Risk Assessment & Register](./Risk-Assessment-Bank-Register.md)**
-    * Evaluated a commercial bank's operational environment to identify and score potential security risks.
-    * Calculated priority scores (Risk = Likelihood x Impact) to help stakeholders allocate resources to the most critical vulnerabilities.
-* **[Data Leak Prevention: NIST AC-6 Analysis](./Data-Leak-Prevention-NIST-AC6.md)**
-    * Analyzed a real-world data leak scenario involving unauthorized folder sharing and human error.
-    * Applied **NIST SP 800-53: AC-6** controls to recommend Role-Based Access Control (RBAC) and automated access revocation.
-* **[Vulnerability Assessment: E-commerce Database](./Vulnerability-Assessment-E-commerce.md)**
-    * Conducted a qualitative risk assessment for a publicly exposed remote database server.
-    * Evaluated threat sources and events using **NIST SP 800-30 Rev. 1** and proposed a remediation strategy featuring VPN, MFA, and the AAA framework.
-* **[Social Engineering Analysis: USB Baiting](./USB-Baiting-Security-Analysis.md)**
-    * Analyzed a "found" USB drive using a virtualized sandbox environment to mitigate malware risks.
-    * Evaluated the threat of PII exposure and proposed technical and operational controls to prevent social engineering attacks.
-* **[Threat Model: PASTA Framework Analysis](./Threat-Model-PASTA-Shopping-App.md)**
-    * Conducted a 7-stage PASTA threat model for a mobile e-commerce application.
-    * Developed data flow diagrams and attack trees to identify vulnerabilities in SQL and API integrations, recommending defenses like input validation and encryption.
-* **[Incident Handler's Journal: Healthcare Ransomware](./Incident-Handlers-Journal-Ransomware.md)**
-    * Documented a ransomware breach using the 5 W's framework to analyze a phishing-based attack on a healthcare provider.
-    * Outlined immediate response steps, including system isolation and backup verification to restore business continuity.
+* **[DDoS Detection: TCP SYN Flood](./Incident-Report-TCP-SYN-Flood-Analysis.md)**: Deep-dive packet analysis of a multi-stage network attack.
+* **[Threat Model: PASTA Framework](./Threat-Model-PASTA-Shopping-App.md)**: Proactive application security modeling for a mobile e-commerce platform.
+* **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**: Full-scale organizational risk assessment using NIST CSF.
 
-### 🕵️ Network Traffic Analysis (Incident Response)
-* **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)**
-    * Investigated connectivity issues for `yummyrecipesforme.com` using `tcpdump`.
-    * Identified a service failure on **UDP Port 53** via ICMP error analysis.
-* **[DDoS Detection: TCP SYN Flood](./Incident-Report-SYN-Flood-Analysis.md)**
-    * Analyzed packet captures to identify an incomplete TCP three-way handshake pattern.
-    * Documented how "half-open" connections were used to exhaust server resources.
-* **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)**
-    * Analyzed a multi-stage attack involving a default password exploit and a malicious JavaScript redirect.
-    * Traced browser redirection from a legitimate site to a malware-hosting domain in network logs.
-* **[Tool Comparison: Wireshark vs. tcpdump](./Network-Analyzer-Comparison.md)**
-    * Conducted a comparative analysis of GUI-based vs. CLI-based packet sniffers.
-    * Identified strategic usage scenarios for remote server troubleshooting and deep-packet inspection.
-* **[Threat Intelligence: VirusTotal & Pyramid of Pain](./Threat-Intelligence-Pyramid-of-Pain.md)**
-    * Analyzed a malicious file hash using VirusTotal to identify Trojan-based behavioral patterns.
-    * Mapped Indicators of Compromise (IoCs) including MD5 hashes, C2 IP addresses, and MITRE ATT&CK TTPs to the Pyramid of Pain.
+---
 
-### 🛡️ Defensive Hardening & Strategy
-* **[Security Risk Assessment & Hardening Plan](./Security-Risk-Assessment-Hardening.md)**
-    * Developed a proactive hardening roadmap for a social media organization.
-    * Proposed technical controls including **MFA**, **Port Filtering**, and **Firewall Maintenance**.
-* **[NIST CSF Lifecycle Analysis: DoS Event](./NIST-CSF-Incident-Analysis.md)**
-    * Applied the "Identify, Protect, Detect, Respond, and Recover" lifecycle to a two-hour ICMP flood incident.
-    * Established long-term strategies for rate limiting and IDS/IPS integration.
+## 🚀 Technical Labs & Incident Reports
 
-### 🐧 System Administration & IAM
-* **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)**
-    * Managed user and group access levels for sensitive directories using `chmod` and `chown`.
-    * Applied the Principle of Least Privilege to secure internal project files and directories.
-* **[Access Control Audit: Insider Threat Investigation](./Access-Control-Audit-Lab.md)**
-    * Cross-referenced event logs with employee directories to identify a former contractor as a threat actor.
-    * Identified failures in the de-provisioning process and recommended the implementation of MFA and the Principle of Least Privilege.
+### 🕵️ Network Traffic & Threat Intelligence
+* **[DDoS Detection: TCP SYN Flood](./Incident-Report-TCP-SYN-Flood-Analysis.md)** – Analyzed packet captures to identify incomplete TCP handshakes and resource exhaustion.
+* **[Web Compromise: Brute Force & Malware](./Incident-Report-Brute-Force-Malware.md)** – Traced administrative account takeovers and malicious JavaScript redirections in network logs.
+* **[Threat Intelligence: VirusTotal & Pyramid of Pain](./Threat-Intelligence-Pyramid-of-Pain.md)** – Pivoted from file hashes to MITRE ATT&CK TTPs to evaluate threat actor difficulty.
+* **[DNS Troubleshooting: Port Unreachable](./Incident-Report-DNS-Troubleshooting.md)** – Identified service failures on UDP Port 53 via ICMP error analysis.
+* **[Tool Comparison: Wireshark vs. tcpdump](./Network-Analyzer-Comparison.md)** – Comparative analysis of GUI vs. CLI packet sniffers for different operational environments.
 
-### 📊 Database Security & Logging
-* **[SQL Security Filters & Querying](./SQL-Security-Filters-Lab.md)**
-    * Used SQL to investigate after-hours failed login attempts and suspicious activity.
-    * Applied logical operators (`AND`, `OR`, `NOT`) and pattern matching (`LIKE`) to filter log data.
+### 📑 Incident Response & Playbooks
+* **[Phishing Incident Response: Playbook Execution](./Phishing-Incident-Response-Playbook.md)** – Followed standardized SOPs to evaluate, document, and escalate a verified phishing threat.
+* **[Incident Handler's Journal: Healthcare Ransomware](./Incident-Handlers-Journal-Ransomware.md)** – Documented a ransomware breach using the "5 W's" framework to ensure business continuity.
+* **[NIST CSF Lifecycle Analysis: DoS Event](./NIST-CSF-Incident-Analysis.md)** – Applied the full "Identify-to-Recover" lifecycle to a large-scale ICMP flood incident.
+
+### 🏛️ GRC (Governance, Risk, & Compliance)
+* **[Vulnerability Assessment: E-commerce Database](./Vulnerability-Assessment-E-commerce.md)** – Conducted qualitative risk scoring (NIST SP 800-30) for a publicly exposed remote server.
+* **[Threat Model: PASTA Framework Analysis](./Threat-Model-PASTA-Shopping-App.md)** – mapped data flows and attack trees to secure a sneaker trading application.
+* **[Data Leak Prevention: NIST AC-6 Analysis](./Data-Leak-Prevention-NIST-AC6.md)** – Used NIST SP 800-53 controls to remediate insider threat risks and unauthorized sharing.
+* **[Bank Risk Assessment & Register](./Risk-Assessment-Bank-Register.md)** – Calculated priority scores for financial assets in a coastal bank operating environment.
+* **[Home Office Asset Inventory & Classification](./Asset-Inventory-Risk-Classification.md)** – Cataloged and classified hardware by data sensitivity (Restricted vs. Confidential).
+
+### 🐧 System Admin, IAM & Databases
+* **[Linux File Permissions & Hardening](./Linux-Permissions-Security-Lab.md)** – Applied the Principle of Least Privilege using `chmod` and `chown` in a CLI environment.
+* **[Access Control Audit: Insider Threat Investigation](./Access-Control-Audit-Lab.md)** – Cross-referenced event logs with HR directories to identify unauthorized account persistence.
+* **[SQL Security Filters & Querying](./SQL-Security-Filters-Lab.md)** – Used logical operators and wildcards to investigate after-hours login attempts in database logs.
+* **[Social Engineering Analysis: USB Baiting](./USB-Baiting-Security-Analysis.md)** – Analyzed physical "found" media risks using a virtualized sandbox environment.
 
 ---
 
 ## 🛠️ Technical Toolkit
-* **Analysis Tools:** Wireshark, `tcpdump`, Packet Inspection.
-* **Operating Systems:** Linux (Ubuntu/Debian), Windows.
-* **Databases:** SQL (PostgreSQL, BigQuery filters).
-* **Frameworks:** NIST Cybersecurity Framework (CSF), NIST SP 800-53.
-* **Network Security:** Firewalls, IDS/IPS, Multi-Factor Authentication (MFA), Port Filtering.
-* **Protocols:** TCP/IP, DNS (UDP 53), HTTP/HTTPS, ICMP.
+* **Analysis Tools:** Wireshark, `tcpdump`, VirusTotal, Sandbox Environments.
+* **Operating Systems:** Linux (Ubuntu/Debian CLI), Windows.
+* **Databases:** SQL (PostgreSQL, BigQuery log filtering).
+* **Frameworks:** NIST CSF, NIST SP 800-53 (AC-6), NIST SP 800-30, PASTA.
+* **Defense & Protocols:** Firewalls, IDS/IPS, MFA, TCP/IP, DNS, ICMP, SHA-256.
 
 ---
 
 ## 🧠 Core Competencies
-1.  **Forensic Investigation:** Skilled in using SQL to query database logs for suspicious login patterns and after-hours activity.
-2.  **Identity & Access Management (IAM):** Proficient in managing Linux permissions and implementing MFA to ensure only authorized users access sensitive data.
-3.  **Packet Inspection:** Ability to isolate "needles in a haystack" using display filters to detect anomalies like DNS Tunneling.
-4.  **Incident Documentation:** Proficient in writing technical reports that bridge the gap between raw data and business impact.
+1.  **Forensic Investigation:** Skilled in using SQL and event log analysis to detect suspicious after-hours patterns.
+2.  **Identity & Access Management (IAM):** Proficient in managing Linux permissions and implementing MFA/RBAC policies.
+3.  **Threat Modeling:** Ability to visualize attack vectors through Attack Trees and Data Flow Diagrams (DFDs).
+4.  **Technical Documentation:** Proficient in translating complex packet data into professional "Executive Summaries" for stakeholders.
 
 ---
 
