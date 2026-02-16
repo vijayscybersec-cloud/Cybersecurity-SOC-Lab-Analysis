@@ -25,6 +25,9 @@ Welcome to my technical portfolio. This repository serves as a professional show
 * **[Phishing Incident Response: Playbook Execution](./Phishing-Incident-Response-Playbook.md)** – Followed standardized SOPs to evaluate, document, and escalate a verified phishing threat.
 * **[Incident Handler's Journal: Healthcare Ransomware](./Incident-Handlers-Journal-Ransomware.md)** – Documented a ransomware breach using the "5 W's" framework to ensure business continuity.
 * **[NIST CSF Lifecycle Analysis: DoS Event](./NIST-CSF-Incident-Analysis.md)** – Applied the full "Identify-to-Recover" lifecycle to a large-scale ICMP flood incident.
+* * **[Post-Incident Analysis: E-commerce Data Breach](./Incident-Final-Report-Analysis.md)**
+    * Reviewed a final incident report for a major data breach involving 50,000 customer records.
+    * Identified "Forced Browsing" as the root cause and recommended URL allowlisting and routine penetration testing to mitigate future web application risks.
 
 ### 🏛️ GRC (Governance, Risk, & Compliance)
 * **[Vulnerability Assessment: E-commerce Database](./Vulnerability-Assessment-E-commerce.md)** – Conducted qualitative risk scoring (NIST SP 800-30) for a publicly exposed remote server.
