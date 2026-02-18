@@ -9,6 +9,9 @@ Welcome to my technical portfolio. This repository serves as a professional show
 * **[DDoS Detection: TCP SYN Flood](./Incident-Report-TCP-SYN-Flood-Analysis.md)**: Deep-dive packet analysis of a multi-stage network attack.
 * **[Threat Model: PASTA Framework](./Threat-Model-PASTA-Shopping-App.md)**: Proactive application security modeling for a mobile e-commerce platform.
 * **[Internal Security Audit: Botium Toys](./Botium-Toys-Audit.md)**: Full-scale organizational risk assessment using NIST CSF.
+* **[Complete Incident Handler's Journal](./Incident-Handlers-Journal-Complete.md)**
+    * A master log documenting the analysis of multiple security incidents and the use of professional tools like Wireshark, SQL, and VirusTotal.
+    * Aligns technical labs with the four phases of the NIST Incident Response Lifecycle.
 
 ---
 
